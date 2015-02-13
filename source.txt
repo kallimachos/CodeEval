@@ -1,6 +1,2 @@
-Hello World,r
-Hello CodeEval,E
-
-a test, of crazy things, that are crazy,n
-    
-fake line of stuff,F
+HELLO CODEEVAL
+This is some text
