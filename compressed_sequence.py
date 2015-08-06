@@ -5,36 +5,16 @@ for line in source:
     array = line.split()
     result = []
     count = 1
-
-    for x in range(0,len(array)):
-        try:
-            while array[x] == array[x+1]:
-                count +=1
-                x += 1
-            result.append(str(count))
-            result.append(array[x])
-            count = 1
-        except IndexError:
-            result.append(str(count))
-            result.append(array[x])
+    
+    while len(array) > 0:
+        match = array.pop(0)
+        while len(array) > 0 and match == array[0]:
+            count += 1
+            array.pop(0)
+        result.append(str(count))
+        result.append(match)
+        count = 1
     print ' '.join(result)
-
-    #for number in array:
-    #    try:
-    #        if number == array[array.index(number) + 1]:
-    #            print number
-    #            count += 1
-    #            print count
-    #        else:
-    #            result.append(str(count))
-    #            result.append(number)
-    #            count = 1
-    #    except IndexError:
-    #        result.append(str(count))
-    #        result.append(number)
-    #        count = 1
-    #print ' '.join(result)
-
 
 
 #Challenge Description:
