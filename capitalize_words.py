@@ -6,4 +6,4 @@ for line in source:
     result = []
     for word in array:
         result.append(word.replace(word[0], word[0].upper(), 1))
-    print ' '.join(result)
+    print(' '.join(result))

@@ -9,4 +9,4 @@ for line in source:
     string = ''
     for number in array:
         string += '%.3f ' % number
-    print string
+    print(string)

@@ -6,4 +6,4 @@ size = []
 for line in source:
     for char in line:
         size.append(char)
-print len(size)
+print(len(size))

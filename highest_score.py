@@ -8,14 +8,14 @@
 #     entry = [int(i) for i in entry]
 #     print entry
 
-#x = zip([1,2,3],[4,5,6],[7,8,9])
+# x = zip([1,2,3],[4,5,6],[7,8,9])
 
-x = zip([72,64,150],[100,18,33],[13,250,-6])
-#x = [max(i) for i in x]
-#print x
+x = zip([72, 64, 150], [100, 18, 33], [13, 250, -6])
+# x = [max(i) for i in x]
+# print x
 
 for i in x:
-    print max(i)
+    print(max(i))
 
 #
 #     col = []
@@ -29,15 +29,16 @@ for i in x:
 #
 #     print allcols
 
-    #col.append(entry.pop(0))
+    # col.append(entry.pop(0))
 
-    #print col
+    # print col
 
-        #print max(entry)
+    # print max(entry)
 
-
-# The first argument is a path to a file. Each line includes a test case with a table. Table rows are separated by pipes '|'.
-# All table rows contain scores for each category, so all lines are of an equal length.
+# The first argument is a path to a file. Each line includes a test case with a
+# table. Table rows are separated by pipes '|'.
+# All table rows contain scores for each category, so all lines are of an equal
+# length.
 #
 # You need to print the highest score for each category.
 #

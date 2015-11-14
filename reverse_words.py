@@ -8,4 +8,4 @@ for line in strings:
         for word in reversed(temp):
             test.append(word)
         result = ' '.join(test)
-        print result
+        print(result)

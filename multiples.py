@@ -10,4 +10,4 @@ for line in numbers:
     while result < x:
         result = n * multiple
         multiple += 1
-    print result
+    print(result)

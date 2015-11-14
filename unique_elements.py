@@ -7,4 +7,4 @@ for line in source:
     for n in array:
         if result.count(n) < 1:
             result.append(n)
-    print ','.join(result)
+    print(','.join(result))

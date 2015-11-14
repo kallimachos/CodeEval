@@ -1,5 +1,6 @@
 import math
 
+
 def is_prime(n):
     return all(n % i for i in range(3, int(math.sqrt(n)) + 1, 2))
 
@@ -12,4 +13,4 @@ while count < 1000:
         result += n
         count += 1
     n += 2
-print result
+print(result)

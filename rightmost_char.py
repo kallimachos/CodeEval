@@ -6,4 +6,4 @@ for line in source:
     if array[0] != '':
         char = array.pop()
         string = ','.join(array)
-        print string.rfind(char)
+        print(string.rfind(char))

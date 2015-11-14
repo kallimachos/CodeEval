@@ -9,5 +9,6 @@ AnD bY oPpOsInG eNd ThEm, To DiE: tO sLeEp.'''
 test = '''HeLlO.
 ThErE pErSoN.'''
 
+
 def test_result():
     assert result() == solution

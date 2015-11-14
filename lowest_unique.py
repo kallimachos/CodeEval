@@ -1,6 +1,7 @@
 import sys
 source = open(sys.argv[1], 'r').readlines()
 
+
 def lowest(array):
     result = []
     for x in array:
@@ -15,5 +16,7 @@ def lowest(array):
 for line in source:
     array = line.strip().split()
     x = lowest(array)
-    if x == 0: print 0
-    else: print array.index(x) + 1
+    if x == 0:
+        print(0)
+    else:
+        print(array.index(x) + 1)
